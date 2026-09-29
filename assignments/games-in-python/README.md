@@ -1,42 +1,34 @@
-# 📘 Assignment: Games in Python
+# 📘 Atividade: Jogo da Forca em Python
 
-## 🎯 Objective
+## 🎯 Objetivo
 
-Create a classic word-guessing game in Python using strings, loops, conditionals, and user input. This activity helps students practice state tracking, random selection, and game flow control.
+Criar um jogo de adivinhação de palavras em Python usando strings, laços, condicionais e entrada de dados do usuário. Nesta atividade, o aluno pratica organização do estado do jogo, seleção aleatória de palavras e controle do fluxo da partida.
 
-## 📝 Tasks
+## 📝 Tarefas
 
-### 🛠️ Create the Secret Word and Game State
+### 🛠️ Configurar a palavra secreta e o estado do jogo
 
 #### Descrição
-Set up the list of possible words and initialize the variables needed to track the player's progress during the game.
+Defina a lista de palavras possíveis e inicialize as variáveis necessárias para acompanhar o progresso do jogador durante a partida.
 
 #### Requisitos
 O programa concluído deve:
 
-- Define a list of words and select one at random using `random.choice()`.
-- Create variables to store the secret word, guessed letters, remaining attempts, and the current hidden word display.
-- Show the initial board to the player using underscores to represent unrevealed letters.
-- Keep the game state updated after every guess.
+- Definir uma lista de palavras e escolher uma aleatoriamente com `random.choice()`.
+- Criar variáveis para armazenar a palavra secreta, as letras chutadas, as tentativas restantes e a palavra oculta atual.
+- Exibir o estado inicial do jogo com underscores para representar letras ainda não reveladas.
+- Atualizar o estado do jogo após cada tentativa do jogador.
 
-### 🛠️ Implement the Guessing Loop and Win/Lose Conditions
+### 🛠️ Implementar o loop de chutes e as condições de vitória/derrota
 
 #### Descrição
-Build the main game loop so the player can enter letters until the word is fully revealed or the number of mistakes reaches the limit.
+Construa o loop principal do jogo para que o jogador possa inserir letras até descobrir a palavra ou esgotar as tentativas permitidas.
 
 #### Requisitos
 O programa concluído deve:
 
-- Ask the player to enter one letter at a time.
-- Check whether the letter is in the secret word and update the visible word accordingly.
-- Count incorrect guesses and reduce the remaining attempts.
-- Print feedback for correct and incorrect guesses.
-- End the game when the player wins or loses and display the final result.
-
-```python
-# Example of expected game flow
-# Word: _ _ _ _ _
-# Guess a letter: p
-# Correct! Word: p _ _ _ _
-# Remaining attempts: 5
-```
+- Solicitar uma letra por vez ao jogador.
+- Verificar se a letra está na palavra secreta e atualizar a palavra visível conforme o resultado.
+- Contar as tentativas erradas e reduzir as chances restantes.
+- Exibir mensagens de feedback para acertos e erros.
+- Encerrar a partida quando o jogador vencer ou perder e mostrar o resultado final.
