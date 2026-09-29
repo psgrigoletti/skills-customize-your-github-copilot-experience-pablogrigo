@@ -72,6 +72,13 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "organizing-files-python",
+      "title": "Organizando arquivos com Python",
+      "description": "Automatize a organização de arquivos por extensão com pathlib e shutil.",
+      "path": "assignments/organizing-files-python",
+      "dueDate": "2026-10-06"
     }
   ]
 }
